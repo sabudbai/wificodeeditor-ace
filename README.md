@@ -15,5 +15,5 @@ v.0.1
 
 ToDo's
 *******************************
-* better Design of File Browser (ExpanbleList (JavaScript))
+* better design of File Browser (ExpanbleList (JavaScript))
 * MAIN TODO : implement terminal emulator in bottom area of index.html
