@@ -1,0 +1,4 @@
+Welcome to Wifi Code Editor!
+
+Start a new Project by clicking New Folder on your left or
+copy your project into workspace folder.

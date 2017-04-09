@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>ACE in Action</title>
+<style type="text/css" media="screen">
+	
+    #editor { 
+		position: absolute;
+		height: 95%;
+        top: 15;
+        right: 0;
+        bottom: 0;
+        left: 0;
+       
+    }
+    
+
+
+
+</style>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<script src="bootbox.min.js"></script>
+</head>
+<body bgcolor="#333435">
+<div id="myWrapper">
+  <form action="ace.html?save=true" method="post" enctype="multipart/form-data" onsubmit="onClickSave()"> 
+    <div class="form-group">
+    <input class="btn" type="submit" value="Save File"/>
+    <input class="btn" type="button" value="Undo" onclick="undoFile()"/>
+    <input class="btn" type="button" value="Redo" onclick="redoFile()"/>
+     </div>
+		<div id="editor">

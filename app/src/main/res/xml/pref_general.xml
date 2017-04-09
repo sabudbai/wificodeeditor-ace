@@ -1,0 +1,41 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+
+    <!-- NOTE: EditTextPreference accepts EditText attributes. -->
+    <!-- NOTE: EditTextPreference's summary should be set to its value by the activity code. -->
+    <EditTextPreference
+        android:capitalize="words"
+        android:defaultValue=""
+        android:inputType="textCapWords"
+        android:key="server_name"
+        android:maxLines="1"
+        android:selectAllOnFocus="true"
+        android:singleLine="true"
+        android:title="Station name" />
+    <EditTextPreference
+        android:capitalize="words"
+        android:defaultValue="8080"
+        android:inputType="number"
+        android:key="server_port"
+        android:maxLines="1"
+        android:selectAllOnFocus="true"
+        android:singleLine="true"
+        android:title="Server port" />
+    <EditTextPreference
+        android:capitalize="words"
+        android:defaultValue="127.0.0.1"
+        android:inputType="number"
+        android:key="server_ip"
+        android:maxLines="1"
+        android:enabled="false"
+        android:selectAllOnFocus="true"
+        android:singleLine="true"
+        android:title="Server IP" />
+
+    <!-- NOTE: Hide buttons to simplify the UI. Users can touch outside the dialog to
+         dismiss it. -->
+    <!-- NOTE: ListPreference's summary should be set to its value by the activity code. -->
+
+
+</PreferenceScreen>
